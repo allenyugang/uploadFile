@@ -1,0 +1,77 @@
+.base_pic_show{
+  padding-left:6px;
+  padding-top:70px;
+}
+.base_register_div{
+  margin-left:10px;
+  width:183px;
+  height:182px;
+  border:1px solid #eaeaea;
+}
+.base_upfilebox input {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  z-index: 9;
+  opacity: 0;
+}
+.base_upfilebox input {
+  cursor: pointer;
+}
+.base_upfilebox .lable {
+  position: absolute;
+  left:17px;
+  display: inline-block;
+  color: #fff;
+  width: 180px;
+  height: 180px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 5px;
+}
+.baseInfo_sign{
+  position: absolute;
+  left: 161px;
+  top: 70px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: black;
+  opacity: 1;
+  cursor: pointer;
+  text-align: center;
+  line-height: 19px;
+  z-index:-1;
+}
+.baseInfo_sign img{
+  margin-top:5px;
+}
+#base_register-view{
+  width:180px;
+  height:180px;
+}
+#base_register-view:hover .baseInfo_sign{
+  z-index: 30;
+}
+#myModalLabel{
+  position:relative;
+  top:7px;
+}
+.hide{
+  display:none;
+}
+.lable-pic{
+  background: url(img/common-icon-img1.png) no-repeat;
+}
+.base_lable {
+  background-position: 40px 42px !important;
+}
+.img{
+  position:absolute;
+  left:17px;
+  z-index:20;
+  cursor:pointer;
+}
+.modal-title{
+  color:#666666;
+}
